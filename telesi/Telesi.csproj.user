@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Types\InventoryList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\InvoiceList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\InvoicePreView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\InvoicePreView2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\NInvoice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\NInvoiceP.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\SearchList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Types\SearchList2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Types\InventoryList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\InvoiceList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\InvoicePreView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\InvoicePreView2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\NInvoice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\NInvoiceP.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\SearchList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Types\SearchList2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
