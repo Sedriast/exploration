@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+	 
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<meta name="theme-color" content="rgb(0, 0, 50)" >
+		<meta
+			name="description"
+			content="We understand that life's unexpected expenses can often throw a wrench into your plans. That's why we've designed a revolutionary credit app to provide you with the financial support you need, exactly when you need it"
+		/>
+		<link rel="icon" href="./assets/fav.svg" />
+		<link rel="alternate" href="https://credit.com"/>
+		<link rel="canonical" href="https://credit.com">
+
+		<title>SimpleCredit</title>
+
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="Credit">
+		<meta property="og:description" content="You'll experience a seamless, user-friendly tool that makes applying for and managing credit simple and stress-free">
+		<meta property="og:image" content="./assets/CreditBanner.jpg">
+		<meta property="og:image:alt" content="Tool that makes applying for and managing credit"">
+
+		<script src="./main.js"></script>
+		
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>¡Pide tu credito ahora!</h1>
+			<a href="https://api.whatsapp.com/send?phone=+xxxxxxxxxxxx" >
+				---->
+				<img alt="Whatsapp logo" title="Whatsapp logo" src="./assets/whatsapp.svg" width="50"height="50">
+				<----
+			</a>
+		</header>
+
+		<main>
+			<form name="creditForm" action="" onsubmit="handleSubmit(event)" enctype="utf-8">
+				<label >
+					Credit amount (COP):
+					<input type="number" name="amount" placeholder="COP" required>
+				</label>
+				<label >
+					Credit duration (years):
+					<input type="number" name="creditDuration" placeholder="Years" required>
+				</label>
+				<label >
+					Payment period:
+					<select name="selectionPeriod">
+						<option value = "52">weekly</option> 
+						<option value = "26">biweekly</option> 
+						<option value = "12">monthly</option> 
+						<option value = "6">bimonthly</option> 
+						<option value = "4">quarterly</option> 
+						<option value = "2">biannual</option> 
+						<option value = "1">annual</option> 
+					</select>
+				</label>
+				<button type="submit" title="submit" name="submitBTN">Generate</button>
+			</form>
+			<table id="table_1">
+				<tbody>
+				</tbody>
+			</table>
+			<table id="table_2">
+				<tbody>
+				</tbody>
+			</table>
+		</main>
+	</body>
+</html>
